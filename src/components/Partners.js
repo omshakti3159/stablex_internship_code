@@ -10,7 +10,10 @@ const Partners = () => {
     return (
         <div style={style}>
             <h1 style={{color:'white',textAlign:'center',fontSize:'2.5rem'}}>Partner & Associates</h1>
-            <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center',height:'150px', width:'80%',padding:'20px 0',margin:'auto'}}>
+            <div style={{overflow:'hidden', display:'flex', justifyContent:'center',alignItems:'center',height:'150px', width:'80%',padding:'20px 0',margin:'auto'}}>
+                <PartnerCard/>
+                <PartnerCard/>
+                <PartnerCard/>
                 <PartnerCard/>
                 <PartnerCard/>
                 <PartnerCard/>
