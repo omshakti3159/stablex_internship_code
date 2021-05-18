@@ -1,0 +1,24 @@
+.news_container{
+    padding: 80px 40px;
+}
+.news_container p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #575757;
+}
+.news_container h1{
+    padding: 0;
+    margin: 0 0 170px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.news_container span{
+    color: rgb(2, 2, 104);
+}
+.news_card_container{
+    width: 400px;
+    height: 420px;
+    margin: 10px;
+    background-color: #cecece;
+}

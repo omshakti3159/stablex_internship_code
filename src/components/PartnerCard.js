@@ -9,7 +9,7 @@ const style={
 const PartnerCard = () => {
     return (
         <div style={style}>
-            <img src={Img}/>
+            <img src={Img} style={{display:'block',objectFit:'cover',width:'100%',height:'100%'}}/>
         </div>
     )
 }
