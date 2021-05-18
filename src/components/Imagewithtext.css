@@ -1,0 +1,68 @@
+.img_txt_container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center
+}
+
+.img_container{
+    width:50vw;
+    text-align:center
+}
+.text_container{
+    width: 50vw;
+}
+.img_container img{
+    width: 80%;
+    height: 50%;
+}
+.text_container p:first-child{
+    color: rgb(138, 138, 138);
+    font-weight: 500;
+    font-size: 20px;
+}
+.text_container p:nth-child(2),.text_container p:nth-child(3){
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 0;
+}
+.text_container p:nth-child(3){
+    color: rgb(0, 0, 110);
+}
+.text_container p:last-child{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(75, 75, 75);
+}
+.text_container p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(75, 75, 75);
+}
+.text_container ul{
+    list-style-image: url('https://i.ibb.co/rwt2Wn1/check.png');
+}
+.text_container ul li{
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+}
+.img_txt_container button{
+    padding: 15px 20px;
+    margin-left:100px;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+@media screen and (max-width:669px) {
+    .img_container,.text_container{
+        width: 100vw;
+    }
+    .text_container p:nth-child(2),.text_container p:nth-child(3){
+        font-size: 1.6rem;
+    }
+}

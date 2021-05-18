@@ -1,0 +1,16 @@
+.infobar_container{
+    display:flex;
+    width:100vw;
+    height:3rem;
+    justify-content:space-around;
+    align-items:center;
+    background-color:rgb(21, 21, 131);
+    color:white;
+}
+@media screen and (max-width:669px) {
+    .infobar_container{
+        display: none;
+    }
+
+
+}
